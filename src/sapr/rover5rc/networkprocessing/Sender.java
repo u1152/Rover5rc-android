@@ -1,4 +1,4 @@
-package sapr.rover5rc;
+package sapr.rover5rc.networkprocessing;
 
 import java.io.IOException;
 import java.net.Socket;

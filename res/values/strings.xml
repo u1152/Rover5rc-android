@@ -3,8 +3,9 @@
     <string name="app_name">Rover5-RC</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    
+
     <!-- config network activity -->
     <string name="title_activity_main">config network</string>
+    <string name="title_activity_control">ControlActivity</string>
 
 </resources>

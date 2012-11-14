@@ -1,5 +1,6 @@
 package sapr.rover5rc;
 
+import sapr.rover5rc.networkprocessing.Sender;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.StrictMode;
@@ -39,7 +40,7 @@ public class MainActivity extends Activity {
 	OnClickListener setupContent = new OnClickListener() {
 
 		public void onClick(View v) {
-			 sender = sender.getInstance();
+			 sender = Sender.getInstance();
 			 sender.connect("192.168.0.77", 7710);
 		};	
 	};
