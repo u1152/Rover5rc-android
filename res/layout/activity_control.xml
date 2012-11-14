@@ -3,4 +3,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <Button
+        android:id="@+id/goForwardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="180dip"
+        android:minWidth="200dip"
+        android:text="/\\" />
+
+    <Button
+        android:id="@+id/goBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/goForwardBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/goForwardBtn"
+        android:text="\\/" />
+
+    <SeekBar
+        android:id="@+id/turnSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/goBackBtn"
+        android:layout_toLeftOf="@+id/goForwardBtn"
+        android:max="180"
+        android:progress="90" />
+
+    <ZoomControls
+        android:id="@+id/zoomControls1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:orientation="vertical" />
+
 </RelativeLayout>
